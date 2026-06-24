@@ -1,18 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Tej Story World</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bharat Heritage Library</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Georgia, serif;
+background:#f8f6f1;
+color:#333;
+line-height:1.8;
+}
+
+header{
+background:white;
+padding:30px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+header h1{
+font-size:40px;
+}
+
+header p{
+color:#777;
+}
+
+nav{
+text-align:center;
+padding:15px;
+background:#fafafa;
+}
+
+nav a{
+text-decoration:none;
+color:#444;
+margin:15px;
+font-size:18px;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+}
+
+.books{
+max-width:1000px;
+margin:auto;
+padding:50px 20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.book{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.book img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.book h3{
+margin-top:15px;
+}
+
+.button{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#8b5e3c;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+margin-top:50px;
+border-top:1px solid #ddd;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h1>Welcome To Tej Story World</h1>
+<header>
 
-<p>Download My Books Below</p>
+<h1>📚 Bharat Heritage Library</h1>
 
-<a href="book1.pdf">
-Download Book 1
+<p>Temples • Heritage • Ancient India • Travel</p>
+
+</header>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Books</a>
+<a href="#">Temples</a>
+<a href="#">Contact</a>
+
+</nav>
+
+<section class="hero">
+
+<h2>Preserving India's Sacred Heritage</h2>
+
+<p>
+Explore books on ancient temples, forgotten kingdoms,
+pilgrimage sites, architecture, culture and history.
+</p>
+
+</section>
+
+<section class="books">
+
+<div class="book">
+
+<img src="cover1.jpg">
+
+<h3>History of Konark Temple</h3>
+
+<p>Ancient architecture and heritage.</p>
+
+<a href="book1.pdf" class="button">
+Read Book
 </a>
+
+</div>
+
+<div class="book">
+
+<img src="cover2.jpg">
+
+<h3>Temples of South India</h3>
+
+<p>Explore sacred architecture.</p>
+
+<a href="book2.pdf" class="button">
+Read Book
+</a>
+
+</div>
+
+<div class="book">
+
+<img src="cover3.jpg">
+
+<h3>Hidden Heritage Places</h3>
+
+<p>Unknown wonders of Bharat.</p>
+
+<a href="book3.pdf" class="button">
+Read Book
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Bharat Heritage Library
+
+</footer>
 
 </body>
 </html>
